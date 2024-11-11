@@ -37,7 +37,7 @@ const dataset = {
     // fileIdx is the index of the file within the torrent ; if not passed, the largest file will be selected
     "tt0032138": { name: "The Wizard of Oz", type: "movie", infoHash: "24c8802e2624e17d46cd555f364debd949f2c81e", fileIdx: 0 },
     "tt0017136": { name: "Metropolis", type: "movie", infoHash: "dca926c0328bb54d209d82dc8a2f391617b47d7a", fileIdx: 1 },
-    "tt23049322": { name: "Largo Winch: Le prix de l'argent", type: "movie", "magnet:?xt=urn:btih:cc1a8478fc15b931a8ecea5d2a4a14ec8e8367ff&dn=The.Price.of.Money.A.Largo.Winch.Adventure.2024.720p.TVGO.WEB-DL.AAC2.0.H.264.HUN-FULCRUM&tr=http%3A%2F%2Ftracker.itorrent.ws%3A80%2Fannounce" }, // HTTP stream
+    "tt23049322": { name:"Largo Winch: Le prix de l'argent", type: "movie", infoHash: "cc1a8478fc15b931a8ecea5d2a4a14ec8e8367ff", fileIdx: 1 }, // HTTP stream
     // night of the living dead, example from magnet
     "tt0063350": fromMagnet("Night of the Living Dead", "movie", "magnet:?xt=urn:btih:A7CFBB7840A8B67FD735AC73A373302D14A7CDC9&dn=night+of+the+living+dead+1968+remastered+bdrip+1080p+ita+eng+x265+nahom&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce"),
     "tt0051744": { name: "House on Haunted Hill", type: "movie", infoHash: "9f86563ce2ed86bbfedd5d3e9f4e55aedd660960" },
