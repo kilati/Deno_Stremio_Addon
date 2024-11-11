@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-net --allow-read --allow-env --watch main.js"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "magnet-uri": "npm:magnet-uri@^7.0.5",
+    "stremio-addon-sdk": "npm:stremio-addon-sdk@^1.6.10"
+  }
+}
